@@ -6,7 +6,7 @@ RUN mkdir /gym
 
 WORKDIR /gym
 
-COPY ./gym/
+COPY . /gym/
 
 RUN apt-get update && apt-get -y install gcc 
 
